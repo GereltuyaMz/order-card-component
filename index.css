@@ -89,6 +89,11 @@ p {
 	color: hsl(245, 75%, 52%);
 }
 
+.change-link:hover {
+	text-decoration: none;
+	color: #766CF1;
+}
+
 .text-container > p {
 	margin: 0.3rem 0.9rem;
 }
@@ -110,6 +115,11 @@ p {
 	font-weight: 700;
 	box-shadow: 0px 12px 40px -10px rgba(0, 0, 0, 0.67);
 	cursor: pointer;
+	transition: 1s;
+}
+
+.payment-btn:hover {
+	background-color: #766CF1;
 }
 
 .cancel-btn {
@@ -122,6 +132,10 @@ p {
 	font-weight: 700;
 	color: hsl(224, 23%, 55%);
 	cursor: pointer;
+}
+
+.cancel-btn:hover {
+	color: hsl(223, 47%, 23%);
 }
 
 @media only screen and (max-width: 375px) {
